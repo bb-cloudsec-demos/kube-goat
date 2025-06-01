@@ -31,7 +31,7 @@ spec:
   type: LoadBalancer
   ports:
   - protocol: TCP
-    port: 80
+    port: 1234
     targetPort: 80
   selector:
     app: kubernetes-goat-home

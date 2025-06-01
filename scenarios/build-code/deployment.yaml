@@ -31,7 +31,7 @@ spec:
   type: LoadBalancer
   ports:
   - protocol: TCP
-    port: 3000
+    port: 1230
     targetPort: 3000
   selector:
     app: build-code

@@ -60,7 +60,7 @@ spec:
   type: LoadBalancer
   ports:
   - protocol: TCP
-    port: 8080
+    port: 1233
     targetPort: 8080
   selector:
     app: system-monitor

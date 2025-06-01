@@ -40,7 +40,7 @@ spec:
   type: LoadBalancer
   ports:
   - protocol: TCP
-    port: 80
+    port: 1231
     targetPort: 80
   selector:
     app: health-check

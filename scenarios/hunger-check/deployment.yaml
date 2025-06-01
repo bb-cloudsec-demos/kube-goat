@@ -89,7 +89,7 @@ spec:
   type: LoadBalancer
   ports:
   - protocol: TCP
-    port: 8080
+    port: 1236
     targetPort: 8080
   selector:
     app: hunger-check
