@@ -28,6 +28,7 @@ metadata:
   name: kubernetes-goat-home-service
   namespace: default
 spec:
+  type: LoadBalancer
   ports:
   - protocol: TCP
     port: 80

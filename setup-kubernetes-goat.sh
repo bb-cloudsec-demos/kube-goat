@@ -13,26 +13,6 @@ else
     exit;
 fi
 
-# Deprecated helm2 scenario
-# Checking helm2 setup
-#helm2 --help > /dev/null 2>&1
-#if [ $? -eq 0 ];
-#then
-#    echo "helm2 setup looks good."
-#else
-#    echo "Error: Could not find helm2, please check helm2 setup."
-#    exit;
-#fi
-#
-## helm2 setup
-#echo "setting up helm2 rbac account and initialise tiller"
-# kubectl apply -f scenarios/helm2-rbac/setup.yaml
-#helm2 init --service-account tiller
-
-# wait for tiller service to ready
-# echo "waiting for helm2 tiller service to be active."
-# sleep 50
-
 # deploying insecure-rbac scenario
 echo "deploying insecure super admin scenario"
 kubectl apply -f scenarios/insecure-rbac/setup.yaml

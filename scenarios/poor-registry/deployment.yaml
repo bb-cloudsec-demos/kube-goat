@@ -28,6 +28,7 @@ metadata:
   name: poor-registry-service
   namespace: default
 spec:
+  type: LoadBalancer
   ports:
   - protocol: TCP
     port: 5000

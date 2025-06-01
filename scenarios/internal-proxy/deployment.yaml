@@ -57,7 +57,7 @@ metadata:
   name: internal-proxy-info-app-service
   namespace: default
 spec:
-  type: NodePort
+  type: LoadBalancer
   ports:
   - protocol: TCP
     port: 5000

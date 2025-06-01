@@ -86,6 +86,7 @@ metadata:
   name: hunger-check-service
   namespace: big-monolith
 spec:
+  type: LoadBalancer
   ports:
   - protocol: TCP
     port: 8080

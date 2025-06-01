@@ -37,6 +37,7 @@ kind: Service
 metadata:
   name: health-check-service
 spec:
+  type: LoadBalancer
   ports:
   - protocol: TCP
     port: 80

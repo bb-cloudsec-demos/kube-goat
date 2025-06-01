@@ -57,6 +57,7 @@ metadata:
   name: system-monitor-service
   namespace: default
 spec:
+  type: LoadBalancer
   ports:
   - protocol: TCP
     port: 8080
